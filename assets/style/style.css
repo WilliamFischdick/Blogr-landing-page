@@ -1,0 +1,29 @@
+
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+body {
+    font-size: 16px;
+    font-family: var(--font-text);
+}
+
+:root {
+    
+    /* Colors */
+
+    --light-red-text: #ff525d;
+    --light-red-hover: #ff7a85;
+    --dark-blue: #1f3f5b;
+    --white-text: #ffffff;
+    --grey-footer-text: #c8c8cb;
+    --greyish-body-text: #4b5862;
+    --blue-footer-background: #25252d;
+    --background-header: linear-gradient(#ff8f70 , #ff3d54);
+    --backgorund-body-card: linear-gradient(#2c2d3f , #3f4164);
+
+    /* Fonts */
+
+    --font-tittle: "Overpass";
+    --font-text: "Ubuntu";
+}
