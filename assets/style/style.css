@@ -19,7 +19,7 @@ body {
     --grey-footer-text: #c8c8cb;
     --greyish-body-text: #4b5862;
     --blue-footer-background: #25252d;
-    --background-header: linear-gradient(#ff8f70 , #ff3d54);
+    --background-header: linear-gradient(90deg,#ff8f70 , #ff3d54);
     --backgorund-body-card: linear-gradient(#2c2d3f , #3f4164);
 
     /* Fonts */
