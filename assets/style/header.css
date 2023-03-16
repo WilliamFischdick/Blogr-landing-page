@@ -1,5 +1,100 @@
 
 header {
     background: var(--background-header);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    border-bottom-left-radius: 100px;
+}
 
+.background__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/assets/img/bg-pattern-intro-desktop.svg");
+    width: 100%;
+    height: 100%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 30%
+    
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container__menu {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    padding: 4em 0 0 4em;
+}
+
+.list__menu {
+    display: flex;
+}
+
+.list__login {
+    display: flex;
+    align-items: center;
+    padding: 4em 4em 0 0;
+}
+
+.menu__login {
+    padding-right: 3em;
+}
+
+input {
+    display: none;
+}
+
+.label__header {
+    padding-right: 2em;
+    color: var(--white-text);
+    font-weight: 700;
+}
+
+.label__header:hover {
+    cursor: pointer;
+}
+
+.login, .signup {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.login {
+    color: var(--white-text);
+}
+
+.signup {
+    color: var(--light-red-text);
+    
+}
+
+.menu__signup {
+    background: var(--white-text);
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.header__title {
+    color: var(--white-text);
+    font-size: 60px;
+    padding-top: 2em;
+    font-family: var(--font-tittle);
+    font-weight: 700;
+}
+
+.header__text {
+    color: var(--grey-footer-text);
+    padding-top: 0.7em;
+    font-size: 19px;
+    font-family: var(--font-tittle);
 }

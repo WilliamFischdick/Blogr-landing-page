@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogr</title>
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,43 +14,47 @@
 </head>
 <body>
     <header>
-        <div class="container__header">
-            <img src="assets/img/logo.svg" alt="Logo Blogr" class="header__logo">
-            <ul class="list__menu">
-                <li class="menu__item">
-                    <input type="checkbox" id="menu" class="">
-                    <label for="menu" class="">Product</label>
-                </li>
-                <li class="menu__item">
-                    <input type="checkbox" id="menu" class="">
-                    <label for="menu" class="">Company</label>
-                </li>
-                <li class="menu__item">
-                    <input type="checkbox" id="menu" class="">
-                    <label for="menu" class="">Connect</label>
-                </li>
-            </ul>
-            <ul class="list__login">
-                <li class="menu__login">
-                    <a href="#" class="login">Login</a>
-                </li>
-                <li class="menu__signup">
-                    <a href="#" class="signup">Sign Up</a>
-                </li>
-            </ul>
-        </div>
-        <h1 class="header__title">A modern publishing platform</h1>
-        <p class="header__text">Grow your audiance and build your online brand</p>
-        <div class="header__buttons">
-            <ul class="buttons__list">
-                <li class="header__button-1">
-                    <a href="#" class="header__link-1">Start for Free</a>
-                </li>
-                <li class="header__button-2">
-                    <a href="#" class="header__link-2">Learn More</a>
-                </li>
-            </ul>
-        </div>
+        <div class="background__image">
+            <div class="container__header">
+                <div class="container__menu">
+                    <img src="assets/img/logo.svg" alt="Logo Blogr" class="header__logo">
+                    <ul class="list__menu">
+                        <li class="menu__item">
+                            <input type="checkbox" id="product" class="menu__button">
+                            <label for="product" class="label__header">Product</label>
+                        </li>
+                        <li class="menu__item">
+                            <input type="checkbox" id="company" class="menu__button">
+                            <label for="company" class="label__header">Company</label>
+                        </li>
+                        <li class="menu__item">
+                            <input type="checkbox" id="connect" class="menu__button">
+                            <label for="connect" class="label__header">Connect</label>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="list__login">
+                    <li class="menu__login">
+                        <a href="#" class="login">Login</a>
+                    </li>
+                    <li class="menu__signup">
+                        <a href="#" class="signup">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="header__title">A modern publishing platform</h1>
+            <p class="header__text">Grow your audiance and build your online brand</p>
+            <div class="header__buttons">
+                <ul class="buttons__list">
+                    <li class="header__button-1">
+                        <a href="#" class="header__link-1">Start for Free</a>
+                    </li>
+                    <li class="header__button-2">
+                        <a href="#" class="header__link-2">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+        </div>    
     </header>
 
     <main>
