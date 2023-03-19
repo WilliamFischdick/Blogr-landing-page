@@ -6,6 +6,7 @@ footer {
     background: var(--blue-footer-background);
     border-top-right-radius: 100px;
     height: 910px;
+    margin-top: 2em;
 }
 
 .lista__rodape {

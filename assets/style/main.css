@@ -32,7 +32,7 @@
     color: var(--dark-blue);
     font-weight: 600;
     width: 300px;
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 .principal__conteudo {
@@ -62,5 +62,27 @@
 .celular__img {
     z-index: 1;
     width: 400px;
-    padding-top: 3em;
+    position: relative;
+    top: 200px;
+}
+
+.card__titulo {
+    color: var(--white-text);
+    font-family: var(--font-tittle);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 5em;
+    font-weight:600;
+}
+
+.card__texto {
+    color: var(--white-text);
+    text-align: center;
+    width: 300px;
+    line-height: 1.5em;
+    padding-top: 2em;
+}
+
+.final__imagem {
+    padding-top: 5em;
 }

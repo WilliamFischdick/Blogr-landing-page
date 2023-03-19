@@ -20,17 +20,77 @@ header {
     padding-top: 4em;
 }
 
-input {
+.navegacao {
+    background: var(--white-text);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
     display: none;
 }
 
-.cabecalho__menu-hamburger {
-    width: 30px;
-    height: 30px;
+.active {
+    position: absolute;
+    display: block;
+    width: 350px;
+    top: 150px;
+    left: 33px;
+   
+}
+
+#btn-mobile {
     background-image: url("/assets/img/icon-hamburger.svg");
     background-repeat: no-repeat;
+    background-color: transparent;
     background-position: center;
-    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.lista__itens {
+    padding-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    width: 90%;
+}
+
+.menu1__link,
+.login,
+.signup {
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-family: var(--font-tittle);
+    font-weight: 600;
+}
+
+.lista__menu1 {
+    padding-bottom: 2em;
+}
+
+.signup {
+    color: var(--white-text);
+    
+}
+
+.lista__login {
+    padding-bottom: 1.5em;
+}
+
+.lista__signup {
+    background: var(--background-header);
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container_text {
