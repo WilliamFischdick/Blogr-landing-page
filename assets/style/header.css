@@ -1,6 +1,6 @@
 
 header {
-    background-image: url("/assets/img/bg-pattern-intro-mobile.svg"), var(--background-header);
+    background-image: url("../img/bg-pattern-intro-mobile.svg"), var(--background-header);
     background-position:center;
     background-repeat: no-repeat;
     background-size: 1000px;
@@ -40,7 +40,7 @@ header {
 }
 
 #btn-mobile {
-    background-image: url("/assets/img/icon-hamburger.svg");
+    background-image: url("../img/icon-hamburger.svg");
     background-repeat: no-repeat;
     background-color: transparent;
     background-position: center;
